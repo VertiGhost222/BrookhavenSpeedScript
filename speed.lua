@@ -1,7 +1,7 @@
 loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("Brookhaven Speed", "Sentinel")
+local Window = Library.CreateLib("Brookhaven Speed", "Ocean") -- Changé de "Sentinel" à "Ocean"
 local SpeedTab = Window:NewTab("Speed")
 local SpeedSection = SpeedTab:NewSection("Adjust")
 local walkspeed = 16
